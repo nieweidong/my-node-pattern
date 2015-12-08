@@ -1,7 +1,12 @@
 'use strict';
 
 var koa = require('koa');
+var serve = require('koa-static');
 var app = koa();
+
+// Static Middleware
+// 全局的公共目录
+app.use(serve('public'));
 
 // logger
 

@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "koa": "1.1.2",
+    "koa": "^1.1.2",
+    "koa-static": "^1.5.2",
     "winston": "^2.1.1",
     "winston-daily-rotate-file": "^1.0.1"
   },

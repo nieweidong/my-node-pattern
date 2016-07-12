@@ -4,6 +4,10 @@
 
 ### 环境
 
+koa本身需要 >=0.11.x 版本的 Node 环境。
+
+有关 Node 版本多说一句，我司去年上半年的 Node 环境是0.11.x，下半年升级至 4.3.2，近期升级至 6.0。为了升级至 6.0 确实还改了不少地方，每次大升级的背后都是程序员的血和泪呀...推荐阅读：[Breaking changes between v5 and v6](https://github.com/nodejs/node/wiki/Breaking-changes-between-v5-and-v6)
+
 ### 目录
 
 ### 包

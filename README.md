@@ -19,8 +19,8 @@ koa本身需要 >=0.11.x 版本的 Node 环境。
 .
 ├── README.md
 ├── conf/
-├── data/
-├── lib/
+├── data/ 存放些静态数据，如银行信息、城市信息、国家信息等
+├── lib/ 和 backend 相关的公共方法
 ├── logs/
 ├── node_modules/
 ├── package.json
@@ -28,7 +28,7 @@ koa本身需要 >=0.11.x 版本的 Node 环境。
 ├── routes/
 ├── index.js
 ├── shipitfile.js
-└── tools/
+└── tools/ 和 backend 不相关的公共方法
 {% endhighlight %}
 
 ### 包

@@ -14,6 +14,23 @@ koa本身需要 >=0.11.x 版本的 Node 环境。
 
 ### 目录
 
+`$ tree -L 1`
+{% highlight html linenos %}
+.
+├── README.md
+├── conf/
+├── data/
+├── lib/
+├── logs/
+├── node_modules/
+├── package.json
+├── pm2/
+├── routes/
+├── index.js
+├── shipitfile.js
+└── tools/
+{% endhighlight %}
+
 ### 包
 
 作为 **套路** 肯定得有套路的要求嘛，所以在这所依赖的包都是比较知名，有不错的文档和用户基数，有问题就怒上 stackoverflow 搞定。
@@ -25,6 +42,8 @@ koa本身需要 >=0.11.x 版本的 Node 环境。
 - Shipit
 - AVA
 - QConf
+
+###
 
 ### 配置
 
